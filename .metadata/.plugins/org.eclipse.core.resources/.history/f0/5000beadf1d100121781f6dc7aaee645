@@ -1,0 +1,12 @@
+
+public class ChocolateBoiler {
+	public static ChocolateBoiler uniqueInstace;
+	
+	private boolean empty;
+	private boolean full;
+	
+	private ChocolateBoiler{
+		
+		
+	}
+}

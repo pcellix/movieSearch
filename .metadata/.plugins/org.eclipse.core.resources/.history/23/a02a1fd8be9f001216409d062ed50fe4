@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Sudoku</string>
+<string name="glowny_tytul">Android Sudoku</string>
+<string name="etykieta_kontynuacja">Kontynuuj</string>
+<string name="etykieta_nowa_gra">Nowa gra</string>
+<string name="etykieta_informacje">Informacje</string>
+<string name="etykieta_wyjscie">Wyjście</string>
+</resources>

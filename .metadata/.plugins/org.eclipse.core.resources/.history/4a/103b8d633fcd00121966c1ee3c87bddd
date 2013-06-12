@@ -1,0 +1,11 @@
+
+public class Pizza {
+
+	public void prepare(){
+		
+	}
+	
+	public void bake(){
+		
+	}
+}

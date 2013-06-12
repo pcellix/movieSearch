@@ -1,0 +1,19 @@
+import java.util.Observable;
+import java.util.Observer;
+
+public class CurrentConditionsDisplay implements Observer, DisplayElement {
+	private float temperature;
+	private float humidity;
+	private Subject weatherData;
+	
+
+	
+	public void update(){
+		System.out.println("I received an update");
+		display();
+	}
+	
+	public void display(){
+		System.out.println(temperature);
+	}
+}

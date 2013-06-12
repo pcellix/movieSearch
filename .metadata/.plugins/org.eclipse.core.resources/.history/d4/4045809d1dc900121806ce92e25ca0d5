@@ -1,0 +1,14 @@
+
+public class WeatherStation {
+	public static void main(String[] args){
+		WeatherData weatherData = new WeatherData();
+		Weather Shit shi1 = new WeatherStation();
+		CurrentConditionsDisplay c1 = new CurrentConditionsDisplay();
+		
+		
+		weatherData.setMeasurements(21, 32, 21);
+		weatherData.setMeasurements(21, 32, 21);
+		
+		
+	}
+}

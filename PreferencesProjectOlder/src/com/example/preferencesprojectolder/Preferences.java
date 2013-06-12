@@ -1,0 +1,31 @@
+package com.example.preferencesprojectolder;
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.widget.TextView;
+
+public class Preferences extends Activity {
+
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+  String c;
+	 
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.activity_main);
+
+  SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+  boolean prefer = sharedPrefs.getBoolean("perform_updates", false);
+  if (prefer) {
+	  c = "true";
+  } else {
+	  c = "false";
+  }
+  TextView tak = (TextView) findViewById(R.id.ja);
+  tak.setText(c);
+  
+ }
+
+}
+

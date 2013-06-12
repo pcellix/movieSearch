@@ -1,0 +1,6 @@
+
+public class ChicagoCheesePizza extends Pizza {
+	ChciagoCheesePizza(){
+		name = "Chciago Pizza Cheese";
+	}
+}

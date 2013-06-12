@@ -1,0 +1,6 @@
+
+public class NyCheesePizza extends Pizza {
+	NyVeggiePizza(){
+		name = "New York Pizza Cheese";
+	}
+}

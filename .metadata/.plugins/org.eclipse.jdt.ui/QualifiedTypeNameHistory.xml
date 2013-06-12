@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.sound.sampled.AudioFormat.Encoding"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.example.jsonexample.dataFromJson"/>
+<fullyQualifiedTypeName name="Subject"/>
+<fullyQualifiedTypeName name="Observer"/>
+<fullyQualifiedTypeName name="WeatherStation"/>
+<fullyQualifiedTypeName name="CurrentConditionsDisplay"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="android.app.ProgressDialog"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="DisplayElement"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="WeatherData"/>
+<fullyQualifiedTypeName name="ForecastDisplay"/>
+<fullyQualifiedTypeName name="Pizza"/>
+<fullyQualifiedTypeName name="Veggie"/>
+<fullyQualifiedTypeName name="KebabPizza"/>
+<fullyQualifiedTypeName name="SimplePizzaFactory"/>
+<fullyQualifiedTypeName name="PizzaStore"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="NyPizzaStore"/>
+<fullyQualifiedTypeName name="ChicagoPizzaStore"/>
+</qualifiedTypeNameHistroy>

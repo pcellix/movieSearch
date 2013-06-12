@@ -1,0 +1,17 @@
+
+public class PizzaStore {
+	SimplePizzaFactory factory;
+	
+	public PizzaStore(SimplePizzaFactory factory){
+		this.factory = factory;
+	}
+	
+	public orderPizza(String type){
+		Pizza pizza;
+		
+		pizza = factory.create("Kebab");
+		pizza.prepare();
+		pizza.bake();
+		
+	}
+}

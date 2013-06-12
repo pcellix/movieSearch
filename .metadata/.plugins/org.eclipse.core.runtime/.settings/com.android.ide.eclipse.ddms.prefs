@@ -1,0 +1,11 @@
+ddms.logcat.auotmonitor.level=error
+ddms.logcat.automonitor.userprompt=true
+eclipse.preferences.version=1
+logcat.view.colsize.Application=169
+logcat.view.colsize.Level=22
+logcat.view.colsize.PID=54
+logcat.view.colsize.TID=54
+logcat.view.colsize.Tag=124
+logcat.view.colsize.Text=674
+logcat.view.colsize.Time=156
+logcat.view.filters.list=name\: 'tag', tag\: 'dupa', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'tak', tag\: 'tak', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'nie', tag\: 'nie', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'asd', tag\: 'asd', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'das', tag\: 'dasa', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'asasa', tag\: 'asadsa', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'asad', tag\: 'asad', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'kwas', tag\: 'kwas', text\: '', pid\: '', app\: '', level\: 'verbose', 

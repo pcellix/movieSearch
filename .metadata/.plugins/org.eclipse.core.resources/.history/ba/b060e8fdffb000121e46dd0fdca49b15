@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center{
+border:5px red;
+color:red;
+text-align:center;
+}
+</style>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p class="center">tekst</p>
+</body>
+</html>

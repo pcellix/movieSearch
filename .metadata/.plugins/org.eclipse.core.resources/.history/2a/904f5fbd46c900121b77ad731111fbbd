@@ -1,0 +1,43 @@
+package com.example.styrtaandek;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.os.Bundle;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+public class MainActivity extends Activity {
+
+    private WebView mWebview ;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        ProgressDialog pD = progressDialog.show(this,"Pekeling...wait","Pekeling please wait");
+        new Thread (new Runnable() {
+			
+			@Override
+			public void run() {
+				Thread.sleep(5000);
+				pD.dismiss();
+			}
+		})
+        mWebview  = new WebView(this);
+
+        mWebview.getSettings().setJavaScriptEnabled(true); // enable javascript
+
+        final Activity activity = this;
+
+        mWebview.setWebViewClient(new WebViewClient() {
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                Toast.makeText(activity, description, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        mWebview .loadUrl("file:///storage/sdcard0/styrta1/main1.html");
+        setContentView(mWebview );
+
+    }
+
+}

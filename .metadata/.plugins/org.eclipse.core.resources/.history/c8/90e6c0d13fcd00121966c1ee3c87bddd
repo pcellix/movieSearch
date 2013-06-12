@@ -1,0 +1,4 @@
+
+public class NyVeggiePizza extends Pizza {
+
+}

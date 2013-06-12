@@ -18,21 +18,28 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/info"
-        android:layout_marginTop="59dp"
-        android:layout_toRightOf="@+id/info"
-        android:ems="10" >
-
-        <requestFocus />
-    </EditText>
+        android:layout_marginTop="40dp"
+        android:ems="10" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_centerVertical="true"
-        android:text="Button" 
-        android:onClick="searchForMovie"/>
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:onClick="searchForMovie"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_marginBottom="169dp"
+        android:layout_marginRight="47dp"/>
 		
 </RelativeLayout>

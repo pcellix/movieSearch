@@ -1,0 +1,32 @@
+package com.example.parsexmlexample;
+
+import java.util.ArrayList;
+
+import android.os.AsyncTask;
+
+public abstract class Xml extends AsyncTask<String, Void, Void>{
+    @Override
+    protected ArrayList<String> doInBackground(String... urls) {
+        ArrayList<String> response = new ArrayList<String>();
+        for (String url : urls) {
+            DefaultHttpClient client = new DefaultHttpClient();
+            HttpGet httpGet = new HttpGet(url);
+            try {
+                HttpResponse execute = client.execute(httpGet);
+                InputStream content = execute.getEntity().getContent();
+                InputStreamReader isr = new InputStreamReader(content);
+                StringBuilder sb = new StringBuilder();
+                char[] buffer = new char[1024];
+                while (isr.read(buffer) != -1) {
+                    sb.append(buffer);
+                }
+                JSONObject jobj = new JSONObject(sb.toString());
+                JSONObject ratesObj = jobj.getJSONObject("rates");
+                Iterator<String> keys = ratesObj.keys();
+                while (keys.hasNext()) {
+                    response.add(ratesObj.getString(keys.next()));
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+}

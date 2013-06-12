@@ -1,0 +1,10 @@
+
+public class SimplePizzaFactory {
+
+	public Pizza create(String pizzaName){
+		if (pizzaName.equals("Veggie"))
+			return Veggie;
+		else if(pizzaName.equals("Kebab"))
+			return KebabPizza;
+	}
+}

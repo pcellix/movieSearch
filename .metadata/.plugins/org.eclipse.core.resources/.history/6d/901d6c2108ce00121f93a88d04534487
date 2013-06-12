@@ -1,0 +1,28 @@
+public class Main {
+
+	public static void main(String args[]) throws InterruptedException {
+		int openings = 0;
+		int closures = 0;
+		
+		String result = '';
+		String startTag = "<span";
+		String endTag = "</span>";
+		String response = "<html><head>adas</head><body>asdsada</body></html>";
+		
+		
+		for (int i = 0; i < response.length(); i++){
+			if (response.substring(i,i+startTag.length()).equals("startTag")){
+				openings++;
+			}
+			if (response.substring(i,i+endTag.length()).equals("endTag")){
+				closures++;
+			}
+			if (openings == closures){
+				end = i;
+				break;
+			}
+		}
+		
+		
+	}
+}

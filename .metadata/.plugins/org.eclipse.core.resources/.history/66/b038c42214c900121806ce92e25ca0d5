@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+
+public class WeatherData {
+	private ArrayList observers;
+	private float temperature;
+	private float humidity;
+	private float pressure;
+	
+	public WeatherDate(){
+		observers = new ArrayList();
+	}
+}
